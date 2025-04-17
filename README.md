@@ -1,6 +1,6 @@
 # Hệ thống quản lý bán hàng với Microservices
-![image](https://github.com/user-attachments/assets/a6e1d694-03c1-4997-9ab9-9fdc9d59f18a)
-![image](https://github.com/user-attachments/assets/d5592bea-dff9-433a-b168-3557539bba19)
+![image](https://github.com/user-attachments/assets/b94a587a-f062-434f-a804-ba542e9dd8bc)
+![image](https://github.com/user-attachments/assets/adee6d64-d9b4-455d-8839-da81cc963186)
 ![image](https://github.com/user-attachments/assets/2db9f820-50c4-4ee4-bda6-978cf78467d7)
 ![image](https://github.com/user-attachments/assets/78dcf9ff-e20a-46e9-8df4-ae07eeb6cb13)
 <h1>Tạo sản phẩm mới</h1>
