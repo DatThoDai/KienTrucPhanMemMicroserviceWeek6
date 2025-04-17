@@ -1,0 +1,6 @@
+/app/customer-service/src/main/java/com/example/customerservice/service/impl/CustomerServiceImpl.java
+/app/customer-service/src/main/java/com/example/customerservice/CustomerServiceApplication.java
+/app/customer-service/src/main/java/com/example/customerservice/model/Customer.java
+/app/customer-service/src/main/java/com/example/customerservice/controller/CustomerController.java
+/app/customer-service/src/main/java/com/example/customerservice/repository/CustomerRepository.java
+/app/customer-service/src/main/java/com/example/customerservice/service/CustomerService.java
