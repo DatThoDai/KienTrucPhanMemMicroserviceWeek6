@@ -1,4 +1,23 @@
 # Hệ thống quản lý bán hàng với Microservices
+![image](https://github.com/user-attachments/assets/a6e1d694-03c1-4997-9ab9-9fdc9d59f18a)
+![image](https://github.com/user-attachments/assets/d5592bea-dff9-433a-b168-3557539bba19)
+<h1>Tạo sản phẩm mới</h1>
+![image](https://github.com/user-attachments/assets/bc786a5c-18e8-4b47-9cf1-3e2d48ba4b77)
+
+<h1>Lấy danh sách sản phẩm</h1>
+![image](https://github.com/user-attachments/assets/0d45b71a-32b1-4983-b9d9-9374d8478779)
+
+<h1>Tạo khách hàng mới</h1>
+![image](https://github.com/user-attachments/assets/aa514988-6fce-4c03-8274-dd2adc805063)
+
+<h1>Lấy danh sách khách hàng</h1>
+![image](https://github.com/user-attachments/assets/e2e3fdf1-e6d2-4e56-8915-9b5533ef41db)
+
+<h1>Tạo đơn hàng mới</h1>
+![image](https://github.com/user-attachments/assets/10f2cc2f-a76f-4d9c-a813-395edf911143)
+
+<h1>Lấy danh sách đơn hàng</h1>
+![image](https://github.com/user-attachments/assets/5ff2db85-6dc5-4217-be05-c260534d1b2f)
 
 Hệ thống quản lý bán hàng được xây dựng bằng kiến trúc Microservices, bao gồm các thành phần:
 - Product Service: Quản lý thông tin sản phẩm
@@ -9,36 +28,8 @@ Hệ thống quản lý bán hàng được xây dựng bằng kiến trúc Micr
 
 ## Sơ đồ gọi giữa các services
 
-```
-+----------------+      +----------------+      +----------------+
-|                |      |                |      |                |
-| Product Service|      | Order Service  |      |Customer Service|
-|                |      |                |      |                |
-+-------+--------+      +-------+--------+      +-------+--------+
-        |                       |                       |
-        |                       |                       |
-        v                       v                       v
-+-------+-------+       +-------+-------+       +-------+-------+
-|  MongoDB      |       |  MongoDB      |       |  MongoDB   |
-|  Database     |       |  Database     |       |  Database     |
-+---------------+       +---------------+       +---------------+
-        ^                       ^                       ^
-        |                       |                       |
-        |                       |                       |
-+-------+-----------------------------------------------+-------+
-|                                                               |
-|                         API Gateway                           |
-|                                                               |
-+---------------------------------------------------------------+
-                                ^
-                                |
-                                |
-                        +-------+-------+
-                        |               |
-                        |    Client     |
-                        |               |
-                        +---------------+
-```
+![image](https://github.com/user-attachments/assets/b71e2c61-2737-40b1-9777-59c7c4112d49)
+
 
 ## Luồng giao tiếp
 
